@@ -2,7 +2,6 @@
 
 ## will relate
 - [avajs/ava](https://github.com/avajs/ava)
-- [rollup/rollup](https://github.com/rollup/rollup)
 
 ## add travis api_key
 ```bash
