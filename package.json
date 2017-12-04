@@ -24,9 +24,7 @@
     "build": "cross-env NODE_ENV=BUILD node rollup.config.all.js",
     "postbuild": "run-s format",
     "format": "prettier --write **/*.js package.json",
-    "report": "nyc report --reporter=lcov",
-    "codecov": "codecov",
-    "coverage": "run-s report codecov"
+    "coverage": "nyc report --reporter=lcov && codecov"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
