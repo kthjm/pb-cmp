@@ -9,6 +9,11 @@
   "main": "dist/{name}.cjs.js",
   "jsnext:main": "dist/{name}.es.js",
   "module": "dist/{name}.es.js",
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
   "nyc": {
     "require": ["babel-register", "jsdom-global/register"],
     "include": ["src"],
@@ -62,10 +67,5 @@
   },
   "peerDependencies": {
     "react": "^16.0.0"
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "semi": false,
-    "singleQuote": true
   }
 }
