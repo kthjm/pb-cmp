@@ -1,6 +1,7 @@
 flow-typed/
 src/
 test/
+wds/
 .babelrc
 .flowconfig
 .gitignore
