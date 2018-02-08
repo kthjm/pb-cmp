@@ -1,3 +1,6 @@
+**/dll.js
+**/dll.manifest.json
+
 # Logs
 logs
 *.log

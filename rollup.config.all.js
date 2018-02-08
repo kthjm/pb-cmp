@@ -6,7 +6,7 @@ const uglify = require('rollup-plugin-uglify')
 const { minify } = require('uglify-es')
 
 const input = `src/index.js`
-const file = mid => `dist/${mid}.js`
+const file = name => `dist/${name}.js`
 
 const cjs_and_es = () =>
   rollup({
